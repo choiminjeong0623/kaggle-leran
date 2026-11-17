@@ -1,0 +1,14 @@
+# 데이터 파일은 올리지 않음 (구글 드라이브에 보관, data/README.md 참고)
+data/*
+!data/README.md
+*.data
+*.names
+*.csv
+
+# 주피터 / 파이썬
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
